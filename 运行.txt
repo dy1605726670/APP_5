@@ -1,0 +1,5 @@
+nohup python3 -u app.py > app_.log 2>&1 &
+
+nohup python3 -u server_test.py > server_.log 2>&1 &
+
+nohup python3 -u write_mongodb.py > write_rz.log 2>&1 &
